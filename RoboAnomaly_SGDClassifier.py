@@ -10,7 +10,7 @@ from sklearn.metrics import (
 )
 
 # Load data
-file_path = "robotic_arm_fault_dataset_correlated.csv"
+file_path = "robotic_arm_fault_dataset.csv"
 data = pd.read_csv(file_path)
 
 # Features and target
